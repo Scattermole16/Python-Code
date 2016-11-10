@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Python.js"></script>
+    <link rel="stylesheet" type="text/css" href="Python.css">
+    <meta charset="UTF-8">
+    <title>Python to Html</title>
+</head>
+<body>
+<fieldset>
+    <h1 align="center">Random Number Calculator</h1>
+</fieldset>
+    <fieldset id="calculator">
+        <p>
+            <input type="button" value="Add" onclick="calculateSum()" class="button">
+            <input type="text" id="Add" name="Add" readonly>
+        </p>
+        <p>
+            <input type="button" value="Subtract" onclick="calculateDifference()" class="button">
+            <input type="text" id="Subtract" name="Subtract" readonly>
+        </p>
+        <p>
+            <input type="button" value="Multiply" onclick="calculateProduct()" class="button">
+            <input type="text" id="Multiply" name="Multiply" readonly>
+        </p>
+        <p>
+            <input type="button" value="Divide" onclick="calculateQuotient()" class="button">
+            <input type="text" id="Divide" name="Divide" readonly>
+        </p>
+        <p>
+            <input type="button" value="Remainder" onclick="calculateModulus()" class="button">
+            <input type="text" id="Remainder" name="Remainder" readonly>
+        </p>
+        <p>
+            <input type="button" value="Display Numbers" onclick="display()" class="button">
+            <input type="text" id="Display" name="Display" readonly>
+        </p>
+    </fieldset>
+</body>
+</html>
